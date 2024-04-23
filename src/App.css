@@ -108,7 +108,7 @@
   font-size: medium;
 }
 
-@media (max-width: 600px) {
+@media screen and (width <= 600px) {
   .container {
     gap: 60px;
   }
