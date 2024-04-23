@@ -173,3 +173,9 @@
     font-size: 20px;
   }
 }
+
+@media screen and (width <= 500px) {
+  .ask-btn {
+    top: 23rem;
+  }
+}
