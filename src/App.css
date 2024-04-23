@@ -108,6 +108,12 @@
   font-size: medium;
 }
 
+@media screen and (min-height: 999px) {
+  .ask-btn {
+    margin-top: 14rem !important; /* Ajusta la posición según sea necesario */
+  }
+}
+
 @media screen and (height >= 900px) {
   .ask-btn {
     margin-top: 10rem;
@@ -116,12 +122,12 @@
 
 @media screen and (height >= 700px) {
   .ask-btn {
-    margin-top: 1rem;
+    margin-top: 2rem;
   }
 
   .title {
     position: absolute;
-    display: none;
+    margin-bottom: 30rem;
   }
 }
 
