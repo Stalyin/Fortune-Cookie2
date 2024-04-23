@@ -1,7 +1,5 @@
-
-
 const getRandomNumber = (limit) => {
-  return Math.floor(Math.random() * limit)  
-}
+  return Math.floor(Math.random() * limit);
+};
 
-export default getRandomNumber
+export default getRandomNumber;

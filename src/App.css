@@ -108,6 +108,23 @@
   font-size: medium;
 }
 
+@media screen and (height >= 900px) {
+  .ask-btn {
+    margin-top: 10rem;
+  }
+}
+
+@media screen and (height >= 700px) {
+  .ask-btn {
+    margin-top: 1rem;
+  }
+
+  .title {
+    position: absolute;
+    display: none;
+  }
+}
+
 @media screen and (width <= 600px) {
   .container {
     gap: 60px;
