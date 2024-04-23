@@ -46,14 +46,14 @@ const Phrase = () => {
         </p>
       ) : showSecondImage ? (
         <img
-          src="public/img/Roto.png"
+          src="/Roto.png"
           alt="Segunda Imagen"
           style={{ width: "200px", height: "200px" }}
           onClick={handleClick}
         />
       ) : showFirstImage ? (
         <img
-          src="public/img/abrir.png"
+          src="/abrir.png"
           alt="Primera Imagen"
           style={{ width: "200px", height: "200px" }}
           onClick={handleClick}
@@ -61,7 +61,7 @@ const Phrase = () => {
       ) : (
         <div>
           <img
-            src="public/img/image-removebg-preview.png"
+            src="/image-removebg-preview.png"
             alt="Imagen"
             style={{ width: "200px", height: "200px" }}
             onClick={handleClick}
