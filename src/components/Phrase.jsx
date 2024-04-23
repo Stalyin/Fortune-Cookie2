@@ -9,7 +9,7 @@ const Phrase = () => {
   const [phraseSelected, setPhraseSelected] = useState({});
 
   const handleClick = () => {
-    const audio = new Audio("public/short-egg-cracking.mp3");
+    const audio = new Audio("/short-egg-cracking.mp3");
     audio.play();
 
     setShowFirstImage(true);
